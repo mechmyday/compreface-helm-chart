@@ -9,6 +9,6 @@ entries:
     name: helm
     type: application
     urls:
-    - https://github.com/exadel-inc/compreface-helm-chart/compreface-kubernetes-0.1.0.tgz
+    - https://github.com/mechmyday/compreface-helm-chart/raw/refs/heads/main/compreface-kubernetes-0.1.0.tgz
     version: 0.1.0
 generated: "2022-07-20T16:46:45.1282307+03:00"
