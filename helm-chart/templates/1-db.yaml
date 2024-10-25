@@ -5,11 +5,12 @@ metadata:
     app: db-data
   name: {{ .Values.postgres.name }}
 spec:
+  storageClaseName: openebs-localssd
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 100Mi
+      storage: 300Mi
 ---
 apiVersion: apps/v1
 kind: Deployment
